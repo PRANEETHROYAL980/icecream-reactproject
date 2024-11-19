@@ -1,0 +1,37 @@
+.Abouthero{
+    background-image: linear-gradient(#EFD7EF,#F5F9FC,#F8EAE1,#EAF8F9);
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.Aboutsub{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+    gap: 25px;
+    border-radius: 8px;
+}
+.Aboutsub a{
+    text-decoration: none;
+}
+.Abouthero h1{
+    font-size: 50px;
+    font-family: "Berkshire Swash", serif;
+    font-weight: 800;
+}
+.Abouthero h2{
+    color: #F83D8E;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.Abouthero h3{
+    font-weight: 500;
+    font-size: 18px;
+    
+}

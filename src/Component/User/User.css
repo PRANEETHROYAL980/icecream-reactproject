@@ -1,0 +1,44 @@
+.User-sub{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    padding: 25px 10px ;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+    transition: all 0.5 linear;
+}
+.User-sub:hover{
+    z-index: 1;
+    transform: scale(1.02);
+}
+
+.User-main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.User-sub img:nth-child(1){
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.user{
+    padding: 50px 0;
+}
+@media(max-width:445px){
+    .User-sub{
+        width: 80%;
+    }
+    .User-main{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+.user-img2{
+    width: 200px;
+}

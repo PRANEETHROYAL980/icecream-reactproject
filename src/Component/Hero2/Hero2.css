@@ -1,0 +1,90 @@
+.Hero2{
+    background-color: #683292;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+    z-index: -1;
+}
+
+.Hero2left{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    width: 50%;
+}
+.Hero2left1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 150px;
+    top: 50px;
+    left: 10%;
+    height: 90%;
+}
+.Hero2left2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+}
+.Hero2right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero2right2{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.Hero2circle{
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #F69C0C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 120px;
+}
+.Hero2left2 h1{
+    font-size: 50px;
+    width: 50%;
+    text-align: start;
+}
+.Hero2left2 h3{
+    font-size: 24px;
+    font-weight: 400;
+    z-index: 100;
+}
+.Hero2left2 button{
+    padding: 5px 10px;
+    background-color: #F83D8E;
+    border: none;
+    border-radius: 15px;
+}
+.Hero2right1 img{
+    position: absolute;
+    top:50px;
+}
+@media(max-width:1223px){
+    .Hero2right1{
+        display: none;
+    }
+}
+@media(max-width:942px){
+    .Hero2left2 h1{
+        width: 105%;
+        z-index: 100;
+    }
+    .Hero2left1{
+        display: none;
+    }
+}

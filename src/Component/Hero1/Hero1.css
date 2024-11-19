@@ -1,0 +1,107 @@
+.Hero1{
+    background-image: url('../Hero1/Assets/Hero1-Backgroun.png');
+}.Hero1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Hero1-left{
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.Hero1-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+
+}
+.Navbar{
+    background-color: white;
+}
+.Hero1-left img{
+    position: absolute;
+    top:150px;
+    left: 0;
+}
+.Hero1-right{
+    width:50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero1-right img{
+    width: 60%;
+    height: 95%;
+}
+.Hero1-left span{
+    color: #F83D8E;
+    font-family: "Berkshire Swash", serif;
+    font-size: 50px;
+
+}
+.Hero1-left h3{
+    font-family: "Berkshire Swash", serif;
+    font-size: 24px;
+}
+.Hero1-left h1{
+    font-size: 50px;
+    font-family: "Berkshire Swash", serif;
+    width: 72%;
+    text-align: start;
+}
+.Hero1-left p{
+    font-size: 18px;
+    width: 60%;
+    font-weight: 500;
+}
+.Hero1-left button{
+    padding: 10px 20px;
+    background-color: rgb(129, 11, 240);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+@media(max-width:1178px){
+    .Hero1-1{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .Hero1-left{
+        width: 100%;
+    }
+    .Hero1-left h1{
+        width: 80%;
+        text-align:start;
+    }
+    .Hero1-left p{
+        width: 80%;
+        text-align: start;
+    }
+    
+    .Hero1-right {
+        width: 50%;
+        height: 30vh;
+    }
+    .Hero1-right img{
+        width: 60%;
+    }
+}
+@media(max-width:922px){
+    .Hero1-right img{
+        width: 70%;
+    }
+}
+@media(max-width:1153px){
+    .Hero1-1{
+        padding:50px 0  0 0 ;
+    }
+}
