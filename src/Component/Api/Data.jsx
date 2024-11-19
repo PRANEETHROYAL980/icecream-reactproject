@@ -5,7 +5,7 @@ const Data = () => {
   const [state,setstate]=useState([])
   const getdata = async()=>{
     try{
-      const data = await axios.get("https://server-5rjg.onrender.com/category");
+      const data = await axios.get("https://icecream-project-server.onrender.com/category");
       setstate(data.data)
     }
     catch(error){

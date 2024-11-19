@@ -5,7 +5,7 @@ const User = () => {
     const [user,setuser]=useState([]);
     const getuser = async()=>{
         try{
-            const userdata = await axios.get("https://server-5rjg.onrender.com/users");
+            const userdata = await axios.get("https://icecream-project-server.onrender.com/users");
             setuser(userdata.data)
         }
         catch(err){

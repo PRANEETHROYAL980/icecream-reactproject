@@ -6,7 +6,7 @@ const Total = () => {
     const [state2, setstate2] = useState([])
     const getdata2 = async () => {
         try {
-            const data2 = await axios.get("https://server-5rjg.onrender.com/total");
+            const data2 = await axios.get("https://icecream-project-server.onrender.com/total");
             setstate2(data2.data)
         }
         catch (error) {

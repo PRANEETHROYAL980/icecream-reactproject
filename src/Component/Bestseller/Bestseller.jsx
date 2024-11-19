@@ -6,7 +6,7 @@ const Bestseller = () => {
     const [state1,setstate1]=useState([])
     const getdata1 = async()=>{
       try{
-        const data1 = await axios.get("https://server-5rjg.onrender.com/BestSeller");
+        const data1 = await axios.get("https://icecream-project-server.onrender.com/BestSeller");
         setstate1(data1.data)
       }
       catch(error){
