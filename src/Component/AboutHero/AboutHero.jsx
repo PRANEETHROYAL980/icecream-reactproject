@@ -9,7 +9,6 @@ const AboutHero = () => {
         <Link to="/"><h2>Home</h2></Link>
         <h3>/</h3>
         <p>About us</p>
-        <p>Contact Us</p>
       </div>
     </div>
   )
