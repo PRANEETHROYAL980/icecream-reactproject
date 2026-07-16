@@ -8,7 +8,7 @@ const AboutHero = () => {
       <div className='Aboutsub'>
         <Link to="/"><h2>Home</h2></Link>
         <h3>/</h3>
-        <p>About us</p>
+        <p>About us</p> //reverted
       </div>
     </div>
   )
